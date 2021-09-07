@@ -1,0 +1,51 @@
+.header-menu-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-box{
+    text-align: left;
+}
+.col{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.PC-0{
+    display: none;
+}
+.PC-1 {
+    flex:0 0 8.33%;
+    max-width: 8.33%;}
+.PC-2 {
+    flex:0 0 16.67%;
+    max-width: 16.67%;}
+.PC-3 {
+    flex:0 0 25%;
+    max-width: 25%;}
+.PC-4 {
+    flex:0 0 33.33%; 
+    max-width: 33.33%;}
+.PC-5 {
+    flex:0 0 41.67%;
+    max-width: 41.67%;}
+.PC-6 {
+    flex:0 0 50%;
+    max-width: 50%;}
+.PC-7 {
+    flex:0 0 58.33%;
+    max-width: 58.33%;}
+.PC-8 {
+    flex:0 0 66.67%;
+    max-width: 66.67%;}
+.PC-9 {
+    flex:0 0 75%;
+    max-width: 75%;}
+.PC-10 {
+    flex:0 0 83.33%;
+    max-width: 83.33%;}
+.PC-11 {
+    flex:0 0 91.67%;
+    max-width: 91.67%;}
+.PC-12 {
+    flex:0 0 100%;
+    max-width: 100%;}

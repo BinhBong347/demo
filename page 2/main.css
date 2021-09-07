@@ -1,0 +1,109 @@
+
+.header-menu-list{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(1, 86, 245);
+    min-height: 70px;
+    width: 100%;
+}
+.items{
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+}
+.items:hover{
+    background-color: yellowgreen;
+}
+.list-items{
+    padding: 0;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.drop-list{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    margin-top: 10px;
+    display: none;
+    
+
+}
+.items:hover .drop-list{
+    display: block;
+    background-color: rgb(97, 182, 134);
+}
+.list-drop{
+    margin: 10px;
+}
+.list-drop>a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+.list-drop>a:hover{
+    background-color: seagreen;
+}
+
+/* pHẦN NỘI DING */
+button {
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+.am_thuc{
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.anh_duoi{
+    margin-left: 30%;
+}
+.image {
+    font-family: sans-serif;
+}
+.heo_quay{
+    margin-left: 30%;
+}
+.bai_viet p{
+    line-height: 1.8rem;
+}
+/* meunu right */
+.menu-right{
+    min-height: 100px;
+   
+}
+.menu-right ul{
+    list-style:  none;
+    padding: 0;
+    margin: 0;
+}
+.menu-right ul li a{
+    text-decoration: none;
+    line-height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    border: 1px solid gray;
+    display: block;
+}
+.menu-right ul li a:hover{
+    background-color: rgb(160, 206, 160);
+}
+
+
+.menu-right h3{
+    background-color: burlywood;
+    color: rgb(26, 13, 13);
+    height: 50px;
+    line-height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0;
+   padding-left: 10px;
+}
+
+.footer-box{
+    text-align: center;
+}
